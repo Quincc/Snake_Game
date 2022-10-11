@@ -1,0 +1,13 @@
+﻿<Window x:Class="SnakeProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SnakeProject"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="481" Width="835" KeyDown="Window_KeyDown" Closed="Window_Closed" Loaded="Window_Loaded">
+    <Grid>
+        <Canvas x:Name="Canvas" HorizontalAlignment="Left" Height="399" Margin="10,41,0,0" VerticalAlignment="Top" Width="807" Background="#FF61FF07"/>
+        <TextBox x:Name="Score_TxtBx" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Score = 1" VerticalAlignment="Top" Width="61"/>
+    </Grid>
+</Window>
